@@ -1,6 +1,8 @@
 Dabrovic Sponza
 ===============
 
+![screenshot](http://i.imgur.com/stPvCV7.png)
+
 This is an attempt at rendering the "Dabrovic Sponza" scene with Unity.
 
 The scene was originally created by Marko Dabrovic.

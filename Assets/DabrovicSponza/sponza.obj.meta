@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: daac9b4c3995a03419096a650c2a9e7d
-timeCreated: 1492259941
-licenseType: Pro
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: arcs_01
     100002: arcs_02
@@ -172,10 +170,112 @@ ModelImporter:
     4300060: round_hole
     4300062: walls
     4300064: windows
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_luk_mal1
+    second: {fileID: 2100000, guid: b7d4d7b3b1e49f04dad6cedfaf694a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_luk_mali
+    second: {fileID: 2100000, guid: e9e827f3124f61741b461772373cd267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_pod
+    second: {fileID: 2100000, guid: 656c694a1c8c4e84caeb5fd25c8dff8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_prozor
+    second: {fileID: 2100000, guid: 19e8c9a22f813d34ca0492dd370f7180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_stup
+    second: {fileID: 2100000, guid: 35e7a184b17fd4640b744dc2033701a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_svod
+    second: {fileID: 2100000, guid: bacc1d754bf6fcf4cb05aa17cab7f82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_vrata_kock
+    second: {fileID: 2100000, guid: ec758aeddb65cd14c96a0d1f083d5f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_vrata_krug
+    second: {fileID: 2100000, guid: 58592d7ed206e5b498e088c81a1ea668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_00_zid
+    second: {fileID: 2100000, guid: 9747e2dac44ed87429b8fc171bee6266, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_luk_a
+    second: {fileID: 2100000, guid: b9fedc817cb262148b06952a143ce58e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub
+    second: {fileID: 2100000, guid: 87fe92cd06e44e24988041302cc62bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_baza
+    second: {fileID: 2100000, guid: 242c0cc3e7614ca4f9f90689e33bda81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_baza_
+    second: {fileID: 2100000, guid: 3f502a19415fd1344860df06d7fcdb9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stub_kut
+    second: {fileID: 2100000, guid: 2ef58a6fe000be14caf73e5a0d4e90dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stup
+    second: {fileID: 2100000, guid: 80afbb8637e5d5547bd02515ae0c0a89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_01_stup_baza
+    second: {fileID: 2100000, guid: c41834d56f86b1d4cb049a5ea01f4801, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_02_reljef
+    second: {fileID: 2100000, guid: d14e4f4966af038459a479d450345deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_svod_kapitel
+    second: {fileID: 2100000, guid: ccf6d0ccc48784b4fa457c89a6da85e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_vijenac
+    second: {fileID: 2100000, guid: 16ccbf49289a95340b7fb65b4fe99437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sp_zid_vani
+    second: {fileID: 2100000, guid: a0c204f48d8111348ad06e53b12339e5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -188,12 +288,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -201,22 +304,30 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 100
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 100
     normalImportMode: 1
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:

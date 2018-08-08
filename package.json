@@ -1,0 +1,8 @@
+{
+    "name": "jp.keijiro.dabrovic-sponza",
+    "displayName": "Dabrovic Sponza",
+    "version": "0.0.1",
+    "unity": "2018.1",
+    "description": "Sponza modeled by Marko Dabrovic, with UVs and crack errors fixed by Kenzie Lamar at Vicarious Visions. Bump maps painted by Morgan McGuire.",
+    "dependencies": { }
+}

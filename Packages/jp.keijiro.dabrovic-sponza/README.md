@@ -18,3 +18,44 @@ http://hdri.cgtechniques.com/~sponza/files/
 Also you can obtain the refined model from McGuire's archive:
 
 https://casual-effects.com/data/
+
+How To Install
+--------------
+
+The Dabrovic Sponza package uses the [scoped registry] feature to import
+dependent packages. Please add the following sections to the package manifest
+file (`Packages/manifest.json`).
+
+To the `scopedRegistries` section:
+
+```
+{
+  "name": "Keijiro",
+  "url": "https://registry.npmjs.com",
+  "scopes": [ "jp.keijiro" ]
+}
+```
+
+To the `dependencies` section:
+
+```
+"jp.keijiro.dabrovic-sponza": "1.0.0"
+```
+
+After changes, the manifest file should look like below:
+
+```
+{
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [ "jp.keijiro" ]
+    }
+  ],
+  "dependencies": {
+    "jp.keijiro.dabrovic-sponza": "1.0.0",
+    ...
+```
+
+[scoped registry]: https://docs.unity3d.com/Manual/upm-scoped.html

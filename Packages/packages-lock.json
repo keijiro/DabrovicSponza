@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jp.keijiro.dabrovic-sponza": {
+      "version": "file:jp.keijiro.dabrovic-sponza",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    }
+  }
+}
